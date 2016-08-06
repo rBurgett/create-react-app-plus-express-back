@@ -1,0 +1,21 @@
+{
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {}
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "rules": {
+        "quotes": [1, "single", "avoid-escape"],
+        "semi": 2,
+        "no-console": 0,
+        "no-unused-vars": 1
+    },
+    "plugins": [],
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "globals": {}
+}
